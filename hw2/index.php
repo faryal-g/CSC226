@@ -181,7 +181,7 @@
   <script>
     function remove(e) {
       console.log(e + "from remove");
-      if (confirm('Are you sure you want to remove this product from Wishlist')) {
+      if (confirm('Are you sure you want to remove this Employ')) {
         // Save it!
         //fetch api version of remove cart
         fetch("api/delete.php", {
